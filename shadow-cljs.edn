@@ -1,0 +1,7 @@
+{:source-paths ["src"]
+ :dependencies []
+ :builds {:script
+          {:target :node-script
+           :output-to "./shadow-cljs-script"
+           :output-dir "./output"
+           :main main/main}}}
